@@ -1,0 +1,50 @@
+.collapsible-item {
+  margin-bottom: 10px;
+}
+
+.collapsible-item .title {
+  padding: 10px;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  cursor: pointer;
+}
+
+.collapsible-item .title .icon {
+  float: right;
+}
+
+.collapsible-item .body {
+  position: relative;
+  top: -4px;
+  max-height: 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-top: 0;
+  z-index: -1;
+  -webkit-transition: max-height 0.5s ease;
+     -moz-transition: max-height 0.5s ease;
+       -o-transition: max-height 0.5s ease;
+          transition: max-height 0.5s ease;
+}
+
+.collapsible-item .body .content {
+  padding: 20px 15px;
+}
+
+.collapsible-item.open .body {
+  max-height: 600px;
+}
+
+.collapsible-item.open .title {
+  -webkit-border-radius: 5px 5px 0 0;
+     -moz-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
