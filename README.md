@@ -36,7 +36,7 @@ That's all you need to start adding accordion UI element to your page.
 ```
 
 ## Options
-+ Open one collapsible at a time
++ **Open one collapsible at a time:**
 By default all collapisible items open/close irrespective of other collapsible items. If you want to open only one collapsible item at a time, use the following option
 
 ```html
@@ -45,7 +45,7 @@ By default all collapisible items open/close irrespective of other collapsible i
 </ang-accordion>
 ```
 
-+ Set collapsible item to be initially openned
++ **Set collapsible item to be initially openned:**
 If you want collapsible item to be open when initially rendered on the page, use this option
 
 ```html
