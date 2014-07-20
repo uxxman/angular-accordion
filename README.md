@@ -1,4 +1,4 @@
 angular-accordion
 =================
 
-A simple angular directive for adding accordion UI element
+A simple and light weight angular directive for adding accordion UI element
