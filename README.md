@@ -53,6 +53,16 @@ If you want collapsible item to be open when initially rendered on the page, use
     ...
 </collapsible-item>
 ```
+
++ **Set right/down icon and its position:**
+You can add open and collapsed icon to show on title of a collapsible item and also define its position (defeault is right).
+
+```html
+<ang-accordion icon-position="left" right-icon-url="../img/right-icon.png" down-icon-url="../img/down-icon.png">
+    ...
+</ang-accordion>
+```
+
 ## Author
 
 **Muhammad Usman** (http://github.com/sherwaniusman)
