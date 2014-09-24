@@ -19,6 +19,13 @@
 
 .collapsible-item .title .icon {
   float: right;
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
+
+.collapsible-item .title .iconleft {
+  float: left !important;
 }
 
 .collapsible-item .body {
