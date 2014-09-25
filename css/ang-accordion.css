@@ -21,7 +21,8 @@
   float: right;
   height: 20px;
   width: 20px;
-  padding-right: 5px;
+  font-size: 19px !important;
+  padding-right: 1px;
 }
 
 .collapsible-item .title .iconleft {

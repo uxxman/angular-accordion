@@ -3,6 +3,7 @@
   <head>
     <title>Angular Accordion Demo</title>
     <link rel="stylesheet" type="text/css" href="../css/ang-accordion.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.15/angular.min.js"></script>
     <script type="text/javascript" src="../js/ang-accordion.js"></script>
 
@@ -13,9 +14,31 @@
     </style>
   </head>
   <body>
-    <h1>Demo</h1>
+    <h1>Demo 1 with font class icons</h1>
 
-    <ang-accordion one-at-a-time="true" icon-position="left" right-icon-url="../images/right-icon.png" down-icon-url="../images/down-icon.png">
+    <ang-accordion one-at-a-time="true" icon-position="right" close-icon-class="fa fa-chevron-right" open-icon-class="fa fa-chevron-down">
+
+      <collapsible-item title="Heading 1" initially-open="true">
+        <h3>This is regular html</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </collapsible-item>
+
+      <collapsible-item title="Heading 2">
+        <h3>This is some more regular html</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </collapsible-item>
+
+    </ang-accordion>
+
+    <hr />
+
+    <h1>Demo 2 with custom image icons</h1>
+
+    <ang-accordion icon-position="left" close-icon-url="../images/right-icon.png" open-icon-url="../images/down-icon.png">
 
       <collapsible-item title="Heading 1" initially-open="true">
         <h3>This is regular html</h3>
