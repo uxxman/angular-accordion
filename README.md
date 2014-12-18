@@ -7,6 +7,10 @@ Built using core angular and css transitions. Works smoothly on desktop and mobi
 
 ## Usage
 
+Bower install
+
+`bower install sherwin-angular-accordion`
+
 Include the required libraries 
 ```html
 <!-- For simple styling and transitions, include "angular-accordion.css". You can edit styles to meed your look and feel -->
