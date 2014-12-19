@@ -7,10 +7,6 @@ Built using core angular and css transitions. Works smoothly on desktop and mobi
 
 ## Usage
 
-Bower install
-
-`bower install ang-accordion`
-
 Include the required libraries
 ```html
 <!-- For simple styling and transitions, include "angular-accordion.css". You can edit styles to meed your look and feel -->
@@ -25,7 +21,8 @@ Declare a dependency on the `angAccordion` module
 ``` javascript
 var app = angular.module('app', ['angAccordion']);
 ```
-That's all you need to start adding accordion UI element to your page.
+That's all you need to start adding accordion UI element to your page. Also, project files are also available through your favourite package manager:
+* **Bower**: `bower install ang-accordion`
 
 ## Html Markup
 
