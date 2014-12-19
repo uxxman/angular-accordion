@@ -7,7 +7,11 @@ Built using core angular and css transitions. Works smoothly on desktop and mobi
 
 ## Usage
 
-Include the required libraries 
+Bower install
+
+`bower install ang-accordion`
+
+Include the required libraries
 ```html
 <!-- For simple styling and transitions, include "angular-accordion.css". You can edit styles to meed your look and feel -->
 <link rel="stylesheet" type="text/css" href="../css/ang-accordion.css">
@@ -30,7 +34,7 @@ That's all you need to start adding accordion UI element to your page.
     <collapsible-item title="Some Heading">
         <div>This is regular html code</div>
     </collapsible-item>
-    
+
     ... <!-- More collapsible items -->
 </ang-accordion>
 ```
