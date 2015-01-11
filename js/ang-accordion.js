@@ -19,7 +19,7 @@ angular.module('angAccordion', ['collapsibleItem']).directive('angAccordion', fu
       openIconClass: '@',
       iconPosition: '@' 
     },
-    controller: function(['$scope', $scope) {
+    controller: ['$scope', function($scope) {
       var collapsibleItems = [];
       
       this.openCollapsibleItem = function(collapsibleItemToOpen) {
