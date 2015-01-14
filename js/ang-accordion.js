@@ -19,7 +19,7 @@ angular.module('angAccordion', ['collapsibleItem']).directive('angAccordion', fu
       openIconClass: '@',
       iconPosition: '@' 
     },
-    controller: function($scope) {
+    controller: ['$scope', function($scope) {
       var collapsibleItems = [];
       
       this.openCollapsibleItem = function(collapsibleItemToOpen) {
@@ -48,7 +48,7 @@ angular.module('angAccordion', ['collapsibleItem']).directive('angAccordion', fu
 
         collapsibleItem.iconIsOnLeft = $scope.iconPosition == 'left' ? true: false;
       };
-    },
+    }],
     template: '<div class="accordion" ng-transclude></div>'
   };
 });
