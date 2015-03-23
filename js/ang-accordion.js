@@ -66,9 +66,13 @@
         replace: true,
         scope: {
           title: '@',
-          initiallyOpen: '@'
+          initiallyOpen: '@',
+          label: '@'
         },
         link: function(scope, element, attrs, accordionController) {
+          if (scope.label) {
+              scope.title = scope.label;
+          }
           scope.isOpenned = (scope.initiallyOpen) ? true : false;
           accordionController.addCollapsibleItem(scope);
           
