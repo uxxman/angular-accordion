@@ -36,6 +36,21 @@ That's all you need to start adding accordion UI element to your page. Project f
 </ang-accordion>
 ```
 
+You can also use the attribute 'label' instead of 'title' in a collapsible-item element. Using 'title' automatically adds a tooltip to your collapsible-item. use 'label'
+if you do not want the tooltip.
+
+Shown below:
+
+```html
+<ang-accordion>
+    <collapsible-item label="Some Heading">
+        <div>This is regular html code</div>
+    </collapsible-item>
+
+    ... <!-- More collapsible items -->
+</ang-accordion>
+```
+
 ## Options
 + **Open one collapsible at a time:**
 By default all collapisible items open/close irrespective of other collapsible items. If you want to open only one collapsible item at a time, use the following option
