@@ -29,6 +29,12 @@
   float: left !important;
 }
 
+.collapsible-item .title.disabled {
+  background: #eee;
+  color: #999;
+  cursor: text;
+}
+
 .collapsible-item .body {
   position: relative;
   top: -4px;
@@ -44,11 +50,11 @@
 }
 
 .collapsible-item .body .content {
-  padding: 20px 15px;
+  padding: 20px 15px 5px 15px;
 }
 
 .collapsible-item.open .body {
-  max-height: initial;
+  max-height: 1000px;
   z-index: 1;
 }
 
