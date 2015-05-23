@@ -70,6 +70,14 @@ If you are using bootstrap Glyphicons or any other font icons, you can use them 
     ...
 </ang-accordion>
 ```
++ **Disabling a collapsible item:**
+You can also disable a collapsible item so, the user cannot open it.
+
+```html
+<collapsible-item item-title="Heading 1" item-disabled="true">
+    ...
+</collapsible-item>
+```
 
 ## Author
 
