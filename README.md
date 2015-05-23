@@ -28,7 +28,7 @@ That's all you need to start adding accordion UI element to your page. Project f
 
 ```html
 <ang-accordion>
-    <collapsible-item title="Some Heading">
+    <collapsible-item item-title="Some Heading">
         <div>This is regular html code</div>
     </collapsible-item>
 
@@ -50,7 +50,7 @@ By default all collapisible items open/close irrespective of other collapsible i
 If you want collapsible item to be open when initially rendered on the page, use this option
 
 ```html
-<collapsible-item title="Heading 1" initially-open="true">
+<collapsible-item item-title="Heading 1" initially-open="true">
     ...
 </collapsible-item>
 ```
