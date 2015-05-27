@@ -66,7 +66,7 @@
         replace: true,
         scope: {
           itemTitle: '@',
-          itemDisabled: '@',
+          itemDisabled: '=',
           initiallyOpen: '@'
         },
         link: function(scope, element, attrs, accordionController) {
