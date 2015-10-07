@@ -67,7 +67,7 @@
         scope: {
           itemTitle: '@',
           itemDisabled: '=',
-          initiallyOpen: '@'
+          initiallyOpen: '='
         },
         link: function(scope, element, attrs, accordionController) {
           scope.isOpenned = (scope.initiallyOpen) ? true : false;
