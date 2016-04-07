@@ -81,7 +81,7 @@ You can also disable a collapsible item so, the user cannot open it.
 
 ## Author
 
-**Muhammad Usman** (http://github.com/sherwaniusman)
+**Muhammad Usman** (http://github.com/uxman-sherwani)
 
 ## Copyright and license
 
