@@ -1,8 +1,3 @@
-/*
- * angaccordion
- * Accordion directive for AngularJS
- * Licensed under the MIT license
- */
 
 (function() {
     'use strict';
