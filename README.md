@@ -21,6 +21,14 @@ Declare a dependency on the `angAccordion` module
 ``` javascript
 var app = angular.module('app', ['angAccordion']);
 ```
+
+Or ES2015+ users can import it as is:
+```javascript
+import ngAccordion from 'ang-accordion';
+
+angular.module('app', [ngAccordion]);
+```
+
 That's all you need to start adding accordion UI element to your page. Project files are also available through your favourite package manager:
 * **Bower**: `bower install ang-accordion`
 
