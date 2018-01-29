@@ -13,7 +13,14 @@
                 collapsibleItem.isOpenned = false;
                 collapsibleItem.icon = collapsibleItem.closeIcon;
               });
-          };
+          }
+          // dynamically expand all panels
+          else { // expand all
+              angular.forEach(collapsibleItems, function (collapsibleItem) {
+                  collapsibleItem.isOpenned = true;
+                  collapsibleItem.icon = collapsibleItem.openIcon;
+              });
+          }
         });
 
           this.openCollapsibleItem = function(collapsibleItemToOpen) {
