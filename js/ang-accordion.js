@@ -15,7 +15,7 @@
               });
           }
           // dynamically expand all panels
-          else { // expand all
+          else if( $scope.collapseAll === false) { // expand all is set to false
               angular.forEach(collapsibleItems, function (collapsibleItem) {
                   collapsibleItem.isOpenned = true;
                   collapsibleItem.icon = collapsibleItem.openIcon;
